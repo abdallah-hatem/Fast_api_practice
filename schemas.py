@@ -8,8 +8,6 @@ class BlogBase(BaseModel):
 
 
 class Blog(BlogBase):
-    title: str
-    body: str
 
     class Config():
         orm_mode = True
